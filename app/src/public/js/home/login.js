@@ -11,7 +11,7 @@ loginBtn.addEventListener("click", login);
 function login(){
     const req = {
         id: id.value,
-        paword: psword.value,
+        psword: psword.value,
     };
     fetch("/login",{
         method: "POST",
